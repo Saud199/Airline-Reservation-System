@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abc.emiratesairlines"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AfterLoginActivity" />
+        <activity android:name=".StaffLoginActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".GiveFeedbackActivity" />
+        <activity android:name=".ContactusActivity" />
+        <activity android:name=".BookFlightActivity" />
+        <activity android:name=".FlightStatusActivity" />
+        <activity android:name=".FlightScheduleActivity" />
+        <activity android:name=".ScheduleFlightStaffActivity" />
+        <activity android:name=".CheckTicketsActivity" />
+        <activity android:name=".CheckFeedBackActivity" />
+        <activity android:name=".AddFlightActivity" />
+        <activity android:name=".UpdateFlightDetailsActivity" />
+        <activity android:name=".ScheduleFlightsActivity" />
+        <activity android:name=".CancelFlightsActivity" />
+        <activity android:name=".ViewFlightsActivity" />
+        <activity android:name=".SendNotificationActivity"></activity>
+    </application>
+
+</manifest>

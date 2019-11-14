@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "21794059830",
+    "firebase_url": "https://emirates-airlines.firebaseio.com",
+    "project_id": "emirates-airlines",
+    "storage_bucket": "emirates-airlines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21794059830:android:3b940e333be71cdb",
+        "android_client_info": {
+          "package_name": "com.example.abc.emiratesairlines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21794059830-vlneu78ho3h4359ga9tn6qltsa2b7q63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc.emiratesairlines",
+            "certificate_hash": "148cbdda60b80ce3a667b519ebf5923afc7d404c"
+          }
+        },
+        {
+          "client_id": "21794059830-99anv20b26r56qunmb9rmqph6rbrblj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALQZtTe-0IdY5Phzs-dfCrk1F0keXGfvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21794059830-99anv20b26r56qunmb9rmqph6rbrblj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

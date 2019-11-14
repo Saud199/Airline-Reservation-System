@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abc.emiratesairlines.BookFlightActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill out the form"
+            android:textSize="20dp"
+            android:textColor="@color/signup_clr"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/signup_clr"
+                android:layout_margin="10dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/id_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Your Name"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="CNIC"
+                android:textColor="@color/signup_clr"
+                android:layout_margin="10dp"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/id_cnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:hint="Enter Your CNIC No"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Class"
+                android:textColor="@color/signup_clr"
+                android:layout_margin="10dp"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/id_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Class"
+                android:layout_marginTop="15dp">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Flights Available"
+                android:textColor="@color/signup_clr"
+                android:layout_margin="10dp"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/id_flight_available"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/ticket_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/signup_clr"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/buy_ticket"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:text="Book Flight"
+            android:background="@drawable/roundedbutton"/>
+
+    </LinearLayout>
+
+</ScrollView>

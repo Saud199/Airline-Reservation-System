@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="txt">#da5452</color>
+    <color name="btn">#da5452</color>
+    <color name="bck_grnd">#006b91</color>
+    <color name="signup_clr">#000000</color>
+    <color name="login_id_clr">#a6dc11</color>
+    <color name="new_btn_clr">#0185b4</color>
+</resources>

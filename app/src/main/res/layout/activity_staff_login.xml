@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck_grnd"
+    tools:context="com.example.abc.emiratesairlines.StaffLoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_id_staff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@color/login_id_clr"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/signup_clr"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <Button
+                android:id="@+id/scheduleflight_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/bookflightsmall"
+                android:text="Schedule Flight"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/detailtick_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/ticketicon"
+                android:text="Check Tickets"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/checkfeeback_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/feedbacksmall"
+                android:text="Check Feedback"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/cancelflight_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/cancelflightsmall"
+                android:text="Cancel Flight"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/view_flights_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/viewflightsmall"
+                android:text="View Flights"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/logoutst_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/logoutsmall"
+                android:text="Logout"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

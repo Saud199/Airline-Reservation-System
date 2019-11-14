@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck_grnd"
+    tools:context="com.example.abc.emiratesairlines.AfterLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_id_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@color/login_id_clr"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/signup_clr"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <Button
+                android:id="@+id/bookflight_button"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/bookflightsmall"
+                android:text="Book a Flight"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/flightstatus_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/rsz_flightstatus"
+                android:text="Flight Status"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flightschedule_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/calendarsmall"
+                android:text="Flight Schedule"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/feedback_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/feedbacksmall"
+                android:text="Feed Back"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/contactus_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/contact_us"
+                android:text="Contact Us"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/aboutus_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:drawableTop="@drawable/aboutussmall"
+                android:text="About Us"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/logoutcs_btn"
+                android:layout_width="129dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/logoutsmall"
+                android:text="Logout"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
